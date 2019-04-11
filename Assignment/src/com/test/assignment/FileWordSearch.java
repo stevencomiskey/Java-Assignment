@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class FileWordSearch 
 {
-   public static void FileWordSearch(String fileName,String query) throws IOException
+   public  FileWordSearch(String fileName,String query) throws IOException
    {
       //File f1=new File(fileName); //Creation of File Descriptor for input file
       String[] words=null;  //Intialize the word Array
@@ -39,8 +39,6 @@ public class FileWordSearch
       } catch (IOException e) {
 
     	  System.out.println("Failed to read");
-
-    	  e.printStackTrace();
 
       }
       if(count!=0)  //Check for count not equal to zero

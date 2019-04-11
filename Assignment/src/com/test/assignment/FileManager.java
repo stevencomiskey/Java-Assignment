@@ -14,7 +14,7 @@ public class FileManager
 
 		File dir = new File("C:\\TextFiles");            // open folder
 		textfiles = dir.list();
-		FileWordSearch fws = new FileWordSearch();
+		FileWordSearch fws = new FileWordSearch(null, null);
 		String query = "qwerty";
 
 		if (textfiles == null) 
